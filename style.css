@@ -1,0 +1,125 @@
+
+html{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+a{  
+    text-decoration: none;
+}
+.topContener{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: rgba(0, 0,0,0.87);  
+    font: 13px Arial,sans-serif; 
+    margin-top: 30px;   
+    padding-left: 30px; 
+    padding-right: 30px;
+
+}
+.topContener a {
+    padding-right: 15px;
+}
+.topContener a:hover{
+ color: #A3A3A3; 
+  text-decoration: underline;
+}
+.topContener a{
+    color: black;
+}
+.topContener .bconnexion{
+    color: white;
+    background-color: #4583ee;
+    padding: 5px 10px;
+    font-weight: bolder; 
+    border-radius:2px; 
+}
+.topContener .bconnexion:hover{
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 1px 0px #d9d9d9  ;
+  
+}
+.corp{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+.lesBouttons{
+    
+display: flex;
+flex-flow: wrap;
+}
+input[type=submit]{
+   background-color: #f2f2f2;
+   border:none;
+   padding: 10px 20px;
+   margin-left: 15px;
+   margin-top: 35px;
+   border-radius: 2px;
+   font-family: arial,sans-serif;
+   font-size: 14px;
+   color: rgba(0,0,0,0.3 alpha);
+}
+input[type=search]{
+   border-radius: 25px;
+   width: 30%;
+   padding: 10px;
+   border:grey solid 1px ;
+   font-family: arial,sans-serif;
+   font-size: 14px;   
+}
+
+input[type=search]:hover,
+input[type=submit]:hover{
+    border: solid 1px;
+    color: rgba(0,0,0,1 alpha);
+   }
+   
+
+input[type=search]:hover{
+box-shadow: 1px 1px 10px #d9d9d9;
+}
+p{
+    color: #222;
+    font: 13px arial,sans-serif;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    border: black solid 1px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #F2F2F2;
+
+}
+.general{
+    position: fixed;
+    bottom: 0;
+    background-color: #F2F2F2;
+    width: 100%;
+    padding: 10px 0px
+   
+}
+.general a {
+    color: #5f6368;
+    font: 14px arial,sans-serif;
+    padding: 0 0 0 27px;
+}
+
+.general a:hover {
+text-decoration: underline;
+}
+
+.piedGauche{
+  float: left;
+}
+.piedDroit{
+  float: right;
+}
+.fin{margin-right: 27px;}
